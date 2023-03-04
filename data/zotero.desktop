@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Zotero
+Exec=//home/edoput/.local/bin/zotero
+Icon=/opt/zotero/Zotero_linux-x86_64/chrome/icons/default/default256.png
+Type=Application
+Terminal=false
+Categories=Office;
+MimeType=text/plain

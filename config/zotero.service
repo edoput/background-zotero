@@ -1,0 +1,10 @@
+[Unit]
+Description=Run zotero in background
+
+[Service]
+ExecStart=/opt/zotero/Zotero_linux-x86_64/zotero-bin -app /opt/zotero/Zotero_linux-x86_64/application.ini --headless
+Restart=on-failure
+RestartSec=30s
+
+[Install]
+WantedBy=default.target
